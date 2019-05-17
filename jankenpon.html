@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="es-mx">
+<head>
+	<meta charset ="utf-8" >
+	<title>Jan Ken Pon</title>
+	<link rel="stylesheet" href="jankenpon.css">
+</head>
+<body>
+
+	<h1>JAN! KEN! PON!</h1>
+	<div class="instrucciones" >
+		<h3>REGLAS</h3>
+		<ul>
+			<li>Para comenzar da click en la imagen que desees elegir.</li>
+			<li>Cada jugada comienza dando click a una imagen.</li>
+			<li>Al ganar o perder cinco jugadas, vuelve a comenzar.</li>
+		</ul>
+
+
+
+	</div>
+	<div class="header">
+
+		<img src="img/piedra.jpg" alt="PIEDRA" class="entrada" id="0">
+		<img src="img/papel.jpg" alt="PAPEL" class="entrada" id="1">
+		<img src="img/tijera.jpg" alt="TIJERA" class="entrada" id="2">
+
+	</div>
+
+	<div class="content">
+		<div class="box">
+			<h2>Has elegìdo:</h2>
+
+			<div class="juego" id="jugador">
+				<img src="img/cb.jpg" alt="opcion jugador" class="imgs" name="opcionjugador">
+			</div>
+
+			<p id="contadorJugador"> </p>
+
+		</div>
+
+		<div class="box">
+		    <p class="resultado" id="Final"></p>
+		</div>
+        	
+		<div class="box">
+			<h2>Iras contra:</h2>
+
+			<div class="juego" id="maquina">
+				<img src="img/cb.jpg" alt="opcion maquina" class="imgs" name="opcionmaquina">
+			</div>
+			<p id="contadorMaquina"></p>
+		</div>
+	</div>
+
+<script src="jankenpon3.js"></script>
+</body>
+</html>
